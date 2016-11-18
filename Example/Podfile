@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ShineLabel_Example' do
+  pod 'ShineLabel', :path => '../'
+
+  target 'ShineLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
